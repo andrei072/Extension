@@ -1,0 +1,84 @@
+body {
+  background-image: linear-gradient(to top, #024635, rgb(5, 202, 104));
+  
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 400px;
+}
+
+#input-el {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid;
+  -o-border-image: linear-gradient(to right, #11998e, #38ef7d);
+     border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-image-slice: 1;
+  outline: 0;
+  font-size: 1.3rem;
+  color: antiquewhite;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+#input-el:focus {
+  padding-bottom: 6px;
+  font-weight: 700;
+  border-width: 3px;
+  border-bottom: 2px solid #9b9b9b;
+  -o-border-image: none;
+     border-image: none;
+}
+
+#input-btn {
+  font-family: inherit;
+  border: 0;
+  border-bottom: 2px solid;
+  -o-border-image: linear-gradient(to right, #11998e, #38ef7d);
+     border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-image-slice: 1;
+  cursor: pointer;
+  -webkit-text-emphasis-color: antiquewhite;
+          text-emphasis-color: antiquewhite;
+}
+
+a {
+  font-family: inherit;
+  border: 0;
+  border-bottom: 2px solid;
+  -o-border-image: linear-gradient(to right, #11998e, #38ef7d);
+     border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-image-slice: 1;
+  cursor: pointer;
+  text-decoration: none;
+  color: antiquewhite;
+  padding-top: 5px;
+}
+
+#delete-btn {
+  font-family: inherit;
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  border-image-slice: 1;
+  cursor: pointer;
+  -webkit-text-emphasis-color: antiquewhite;
+          text-emphasis-color: antiquewhite;
+  text-transform: uppercase;
+}
+
+#tab-btn {
+  text-transform: uppercase;
+  font-family: inherit;
+  border: 0;
+  border-bottom: 2px solid;
+  -o-border-image: linear-gradient(to right, #11998e, #38ef7d);
+     border-image: linear-gradient(to right, #11998e, #38ef7d);
+  border-image-slice: 1;
+  cursor: pointer;
+  -webkit-text-emphasis-color: antiquewhite;
+          text-emphasis-color: antiquewhite;
+}/*# sourceMappingURL=index.css.map */
